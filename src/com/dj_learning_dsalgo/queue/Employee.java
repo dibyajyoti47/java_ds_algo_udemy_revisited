@@ -1,4 +1,4 @@
-package com.dj_learning_dsalgo.stack;
+package com.dj_learning_dsalgo.queue;
 
 public class Employee {
     private int id;

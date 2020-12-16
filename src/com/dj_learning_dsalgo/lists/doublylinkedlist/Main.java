@@ -10,17 +10,17 @@ public class Main {
         list.printList();
         System.out.println();
         System.out.println(list.getSize());
-
+        System.out.println("------------------------------");
         list.addToEnd(new Person("Billy", 28, 104));
         list.printList();
         System.out.println();
         System.out.println(list.getSize());
-
+        System.out.println("------------------------------");
         list.removeFromFront();
         list.printList();
         System.out.println();
         System.out.println(list.getSize());
-
+        System.out.println("------------------------------");
         list.removeFromEnd();
         list.printList();
         System.out.println();
