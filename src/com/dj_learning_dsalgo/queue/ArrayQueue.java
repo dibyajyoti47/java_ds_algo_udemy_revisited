@@ -15,17 +15,20 @@ public class ArrayQueue {
         if ( back == queue.length) {
             Employee[] newArray = new Employee[2 * queue.length];
             System.arraycopy(queue, 0, newArray, 0, queue.length);
+            queue = newArray;
         }
-        queue[back++] = employee;
+        queue[back] = employee;
+        back++;
     }
 
     public Employee poll() {
         if (size() == 0) throw new NoSuchElementException();
         Employee employee = queue[front];
-        queue[front++] = null;
+        queue[front] = null;
+        front++;
         if (size() == 0) {
             front = 0;
-            front = 0;
+            back = 0;
         }
         return employee;
     }

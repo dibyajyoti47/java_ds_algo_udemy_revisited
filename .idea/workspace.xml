@@ -3,10 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="076cc799-da4a-4cb4-a175-6a0a827b2b1a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/dj_learning_dsalgo/lists/doublylinkedlist/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dj_learning_dsalgo/lists/doublylinkedlist/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/dj_learning_dsalgo/stack/ArrayStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dj_learning_dsalgo/stack/ArrayStack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/dj_learning_dsalgo/stack/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dj_learning_dsalgo/stack/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/dj_learning_dsalgo/stack/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dj_learning_dsalgo/stack/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dj_learning_dsalgo/queue/ArrayQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dj_learning_dsalgo/queue/ArrayQueue.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
