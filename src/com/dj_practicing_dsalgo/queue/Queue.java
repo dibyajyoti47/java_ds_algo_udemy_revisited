@@ -24,6 +24,10 @@ public class Queue<T> {
         if (getSize() == 0) throw new NoSuchElementException();
         T removedElement =  (T) arrayQueue[front];
         arrayQueue[front++] = null;
+        if (getSize()==0) {
+           front=0;
+           end=0;
+        }
         return removedElement;
     }
 
@@ -37,6 +41,14 @@ public class Queue<T> {
     }
     public int getSize () {
         return end - front;
+    }
+
+    public int getFront() {
+        return front;
+    }
+
+    public int getEnd() {
+        return end;
     }
 
     public void printQueue (){
