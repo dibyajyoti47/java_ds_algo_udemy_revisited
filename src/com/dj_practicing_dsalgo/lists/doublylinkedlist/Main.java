@@ -6,6 +6,7 @@ public class Main {
         list.addToFront("Linku");
         list.addToFront("Pinku");
         list.addToFront("Tinku");
+        /*
         System.out.println(list.getSize());
         list.printList();
         System.out.println("-----------");
@@ -21,5 +22,8 @@ public class Main {
         System.out.println(list.getSize());
         list.printList();
         System.out.println("-----------");
+        */
+        list.addBefore("Chinku", "Linku");
+        list.printList();
     }
 }

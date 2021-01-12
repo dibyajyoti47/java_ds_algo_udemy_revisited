@@ -40,6 +40,33 @@ public class DoublyLinkedList<T> {
         size++;
     }
 
+    public void addBefore (T newElement, T existing) {
+        Node newNode = new Node(newElement);
+        Node foundNode = null;
+        Node currentNode = head;
+        while (currentNode != null) {
+            if ( currentNode.getElement().equals(existing)) {
+                foundNode = currentNode;
+                break;
+            }
+            currentNode = currentNode.next;
+        }
+        if (foundNode == null) {
+            throw new NoSuchElementException();
+        } else {
+            Node prev = foundNode.getPrevious();
+            newNode.setPrevious(prev);
+            newNode.setNext(foundNode);
+            foundNode.setPrevious(newNode);
+            if(prev != null) {
+                prev.setNext(newNode);
+            } else {
+                head = newNode;
+            }
+        }
+        size++;
+    }
+
     public T removeFromFront () {
         if (isEmpty()) throw new NoSuchElementException();
         Node<T> removedNode = head;
