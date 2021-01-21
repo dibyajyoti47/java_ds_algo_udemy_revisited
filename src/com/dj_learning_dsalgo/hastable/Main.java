@@ -15,5 +15,11 @@ public class Main {
         ht.put("Smith", marySmith);
         ht.printHashTable();
         System.out.println(ht.get("Doe"));
+        System.out.println("----------------");
+        System.out.println();
+        System.out.println();
+        System.out.println(ht.remove("Wilson"));
+        System.out.println(ht.remove("Jones"));
+        System.out.println(ht.get("Smith"));
     }
 }

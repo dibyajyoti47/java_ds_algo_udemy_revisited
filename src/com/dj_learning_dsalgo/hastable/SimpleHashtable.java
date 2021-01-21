@@ -34,6 +34,23 @@ public class SimpleHashtable {
         return hashtable[findKey(key)].employee;
     }
 
+    public Employee remove (String key) {
+        int hashedkey = findKey(key);
+        if (hashedkey == -1) {
+            return null;
+        }
+        Employee employee = hashtable[hashedkey].employee;
+        hashtable[hashedkey] = null;
+        StoredEmployee [] oldHashtable = hashtable;
+        hashtable = new StoredEmployee[hashtable.length];
+        for (int i = 0; i < oldHashtable.length; i++) {
+            if (oldHashtable[i] != null)
+                put(oldHashtable[i].key, oldHashtable[i].employee);
+        }
+
+        return employee;
+    }
+
     private int findKey(String key) {
         int hashedKey = hashKey(key);
         if (hashtable[hashedKey] != null && hashtable[hashedKey].key.equals(key)){
@@ -41,26 +58,25 @@ public class SimpleHashtable {
         }
 
         int stopIndex = hashedKey;
-        if (hashedKey == hashtable.length-1) {
+        if (hashedKey == hashtable.length-1)
             hashedKey = 0;
-        } else {
+        else
             hashedKey++;
-        }
         while (hashedKey != stopIndex
                     && hashtable[hashedKey] != null
                     && !hashtable[hashedKey].key.equals(key)) {
             hashedKey = ( hashedKey + 1 ) % hashtable.length;
         }
-        if (stopIndex == hashedKey) {
-            return -1;
-        } else {
+        if (hashtable[hashedKey] !=null && hashtable[hashedKey].key.equals(key))
             return hashedKey;
-        }
+        else
+            return -1;
     }
 
     private boolean isOccupied (int index) {
         return hashtable[index] != null;
     }
+
     public void printHashTable () {
         for (int i = 0; i < hashtable.length; i++) {
             if (hashtable[i] == null)
