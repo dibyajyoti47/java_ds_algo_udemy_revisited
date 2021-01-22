@@ -1,4 +1,6 @@
-package com.dj_learning_dsalgo.hastable;
+package com.dj_learning_dsalgo.hastable.simplehashtable;
+
+import com.dj_learning_dsalgo.hastable.Employee;
 
 public class StoredEmployee {
 
