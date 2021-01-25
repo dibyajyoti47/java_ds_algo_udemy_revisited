@@ -44,7 +44,20 @@
       <recent name="com.dj_learning_dsalgo.hastable.chainedhashtable" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main (2)">
+  <component name="RunManager" selected="Application.BinarySearch">
+    <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dj_learning_dsalgo.searching.BinarySearch" />
+      <module name="java_ds_algo_udemy_revisited" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dj_learning_dsalgo.searching.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="BucketSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.dj_learning_dsalgo.sorting.BucketSort" />
       <module name="java_ds_algo_udemy_revisited" />
@@ -58,12 +71,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.dj_learning_dsalgo.hastable.chainedhashtable.Main" />
+    <configuration name="LinearSearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dj_learning_dsalgo.searching.LinearSearch" />
       <module name="java_ds_algo_udemy_revisited" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.dj_learning_dsalgo.hastable.chainedhashtable.*" />
+          <option name="PATTERN" value="com.dj_learning_dsalgo.searching.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -97,26 +110,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.dj_learning_dsalgo.hastable.simplehashtable.Main" />
-      <module name="java_ds_algo_udemy_revisited" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.dj_learning_dsalgo.hastable.simplehashtable.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BinarySearch" />
+        <item itemvalue="Application.LinearSearch" />
         <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main (3)" />
         <item itemvalue="Application.BucketSort" />
-        <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -136,21 +136,25 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1611568644230" />
-    <state width="1493" height="364" key="GridCell.Tab.0.bottom" timestamp="1611574469749">
+    <state width="1493" height="264" key="GridCell.Tab.0.bottom" timestamp="1611582798415">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="364" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1611574469749" />
-    <state width="1493" height="364" key="GridCell.Tab.0.center" timestamp="1611574469749">
+    <state width="1493" height="264" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1611582798415" />
+    <state width="1493" height="264" key="GridCell.Tab.0.center" timestamp="1611582798415">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="364" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1611574469749" />
-    <state width="1493" height="364" key="GridCell.Tab.0.left" timestamp="1611574469749">
+    <state width="1493" height="264" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1611582798415" />
+    <state width="1493" height="264" key="GridCell.Tab.0.left" timestamp="1611582798415">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="364" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1611574469749" />
-    <state width="1493" height="364" key="GridCell.Tab.0.right" timestamp="1611574469749">
+    <state width="1493" height="264" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1611582798415" />
+    <state width="1493" height="264" key="GridCell.Tab.0.right" timestamp="1611582798415">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="364" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1611574469749" />
+    <state width="1493" height="264" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1611582798415" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1611582193949">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1611582193949" />
   </component>
 </project>
