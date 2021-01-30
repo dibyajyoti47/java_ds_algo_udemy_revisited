@@ -14,8 +14,9 @@ public class Main {
         heap.insert(67);
 
         heap.printHeap();
-
-        heap.delete(0);
+        heap.sort();
         heap.printHeap();
+//        heap.delete(0);
+//        heap.printHeap();
     }
 }
